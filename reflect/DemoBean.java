@@ -1,4 +1,3 @@
-package Java.reflect;
 
 public class DemoBean {
     //无参构造函数

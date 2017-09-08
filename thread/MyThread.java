@@ -1,4 +1,3 @@
-package Java.thread;
 
 public class MyThread implements Runnable {
     public MyThread() {

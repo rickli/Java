@@ -1,7 +1,7 @@
-package Java.reflect;
 
-public class Test {
-    public Test() {
+
+public class TestReflect {
+    public TestReflect() {
         DemoBean db = new DemoBean();
         DemoBean db1 = new DemoBean("aaa", 111);
         db.getInt1();
@@ -10,6 +10,6 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        new Test();
+        new TestReflect();
     }
 }

@@ -1,11 +1,11 @@
-package step1;
+
 
 public class Array {
 
 	public Array() {
-		//arrayInit();
-		//rDimensionsArray();
-		//irrDimensionsArray();
+		arrayInit();
+		rDimensionsArray();
+		irrDimensionsArray();
 		arrayCopy();
 	}
 	

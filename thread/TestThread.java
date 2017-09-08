@@ -1,5 +1,4 @@
 
-package Java.thread;
 
 public class TestThread {
     public TestThread() {
