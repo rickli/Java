@@ -11,5 +11,4 @@ public class MyException extends Exception{
 			break;
 		}
 	}
-
 }

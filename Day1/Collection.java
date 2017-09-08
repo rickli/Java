@@ -14,11 +14,11 @@ import java.util.Vector;
 public class Collection {
 
 	public Collection() {
-//		showSet();
-//		showList();	
-//		showVector();
-//		showHashTable();	
-		//showHashMap();
+		showSet();
+		showList();	
+		showVector();
+		showHashTable();	
+		showHashMap();
 		showLinkedHashMap();
 	}
 	
@@ -28,8 +28,9 @@ public class Collection {
 		set.add("1");
 		set.add("2");
 		set.add("2");
-		set.add(new Integer(1));
+		
 		set.add(new Integer(2));
+		set.add(new Integer(1));
 		Iterator<Object> itt=set.iterator();
 		while(itt.hasNext()){
 			System.out.println (itt.next());

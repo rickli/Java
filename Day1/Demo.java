@@ -5,7 +5,9 @@ public class Demo {
 //        System.out.println(x);
         int i = 1;
         int j = i++;
+        System.out.println("i = "+i+", j = "+j);
         if((i==(++j))&&((i++)==j)) {
+        	System.out.println("i = "+i+", j = "+j);
             i += j;
         }
         System.out.println("i = "+i);
@@ -16,6 +18,7 @@ public class Demo {
         System.out.println(str);
         int sum = 0;
         for(int x = 0; x < 10; x++) {
+        	System.out.println(x);
             sum += x;
             if(x % 3 == 0) {
                 break;
