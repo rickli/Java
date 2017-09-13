@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="Day1"/>
+	<classpathentry excluding="test/java/com/iluwatar/abstractdocument/AbstractDocumentTest.java" kind="src" path="src"/>
 	<classpathentry kind="src" path="reflect"/>
 	<classpathentry kind="src" path="thread"/>
 	<classpathentry kind="src" path="oo"/>
@@ -10,5 +11,8 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SLF4J"/>
+	<classpathentry kind="lib" path="/Users/king/Downloads/slf4j-1.7.25"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

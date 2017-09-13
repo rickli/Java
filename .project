@@ -20,4 +20,11 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src</name>
+			<type>2</type>
+			<location>/Users/king/Documents/CTrip/Java/java-design-patterns/abstract-document/src</location>
+		</link>
+	</linkedResources>
 </projectDescription>
